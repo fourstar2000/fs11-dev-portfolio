@@ -1,6 +1,27 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+}
+
+.intro {
+    display: flex;
+}
+
+.bio {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.headshot {
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+}
+
 /* Required elements
-    /* Semantic HTML5 structure
-    /* External CSS file
     /* Flexbox for layout
     /* Mobile-first responsive design
     /* Clean folder structure
@@ -20,17 +41,10 @@
     /* If using a UI framework, you may use its navbar component
 
 /* Hero Section
-    /* Your Name
-    /* Professional Title
-    /* Short 1-2 Sentence Introduction
     /* Call-to-action button (e.g. "View My Work")
-    /* Must use Flexbox
     /* Looks clean on mobile or desktop
 
 /* About Me Section
-    /* Include 1-3 paragraphs
-    /* Professional summary
-    /* Optional headshot image
     /* Responsive layout (image + text stack on mobile)
     /* Clean spacing and readable typography
 
