@@ -1,0 +1,101 @@
+/* Required elements
+    /* Semantic HTML5 structure
+    /* External CSS file
+    /* Flexbox for layout
+    /* Mobile-first responsive design
+    /* Clean folder structure
+    /* Deployed live site
+    /* Git version control
+
+/* Optional elements
+    /* Integrate a UI framework (Bootstrap or Tailwind)
+    /* Custom fonts (Google Fonts)
+    /* Subtle animation or transitions
+    /* Icons (Font Awesome or similar)
+
+/* Navigation Bar
+    /* Responsive navigation
+    /* Links scroll to sections (anchor links)
+    /* Use Flexbox for responsive layouts
+    /* If using a UI framework, you may use its navbar component
+
+/* Hero Section
+    /* Your Name
+    /* Professional Title
+    /* Short 1-2 Sentence Introduction
+    /* Call-to-action button (e.g. "View My Work")
+    /* Must use Flexbox
+    /* Looks clean on mobile or desktop
+
+/* About Me Section
+    /* Include 1-3 paragraphs
+    /* Professional summary
+    /* Optional headshot image
+    /* Responsive layout (image + text stack on mobile)
+    /* Clean spacing and readable typography
+
+/* Skills Section
+    /* Frontend skills
+    /* Backend skills
+    /* Tools/technologies
+    /* Suggested layout options: cards, grid, flex rows
+    /* Must use Flexbox
+    /* Responsive layout (wrap or stack cleanly)
+
+/* Projects Section
+    /* Must include at least 2 cards (placeholders acceptable)
+        /* Each project must include:
+            /* Project title
+            /* Short description
+            /* Technologies used
+            /* Github link (placeholder allowed)
+            /* Optional live demo link
+        /* Layout requirements
+            /* Use Flexbox
+            /* Stack vertically on mobile
+            /* Align evenly on larger screens
+
+/* Contact Section
+    /* Clickable e-mail (mailto:)
+    /* LinkedIn link (placeholder allowed)
+    /* GitHub profile link
+    /* Optional contact form (HTML only required)
+
+/* Footer Section
+    /* Your Name
+    /* Current Year
+    /* Copyright
+    /* Optional social links
+
+/* Design Requirements
+    /* Mobile-first approach
+    /* Clean spacing and alignment
+    /* Consistent color scheme (2-3 colors max)
+    /* Proper use of margins and padding
+    /* Readable typography
+    /* No broken layouts when resizing
+    /* No horizontal scrolling
+
+/* Flexbox Requirements
+    /* Must use flexbox for:
+        /* Navbar layout
+        /* Skills layout
+        /* Projects layout
+        /* At least one additional layout of your choice
+    /* Must demonstrate usage of:
+        /* display: flex
+        /* justify-content
+        /* align-items
+        /* flex-direction
+        /* flex-wrap
+
+/* Responsive requirements
+    /* Include proper viewport meta tag
+    /* Use at least one media query breakpoint (768px/1024px)
+    /* Layout must adapt at larger screen sizes
+    /* No horizontal overflow
+
+/* Deployment
+    /* Must push code to Github
+    /* Must deploy live to Github Pages and Netlify
+    /* Must submit live URL
