@@ -1,7 +1,22 @@
-nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 2em;
+@media screen and (max-width: 768px) {
+    img.container > img {
+        display: flex;
+        align-items: left;
+        width: 768px;
+    }
+}
+
+.custom-navbar {
+    background-color: rgb(167, 61, 242);
+}
+
+.nav-link {
+    color: white;
+}
+
+body {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
 }
 
 .intro {
@@ -13,32 +28,24 @@ nav {
     flex-flow: row wrap;
 }
 
-.headshot {
-    height: 200px;
+.project-container {
+    display: inline-flex;
+    justify-content: center;
 }
 
 .footer {
     display: flex;
+    background-color: gray;
 }
 
 /* Required elements
     /* Flexbox for layout
     /* Mobile-first responsive design
-    /* Clean folder structure
     /* Deployed live site
     /* Git version control
 
-/* Optional elements
-    /* Integrate a UI framework (Bootstrap or Tailwind)
-    /* Custom fonts (Google Fonts)
-    /* Subtle animation or transitions
-    /* Icons (Font Awesome or similar)
-
 /* Navigation Bar
-    /* Responsive navigation
-    /* Links scroll to sections (anchor links)
     /* Use Flexbox for responsive layouts
-    /* If using a UI framework, you may use its navbar component
 
 /* Hero Section
     /* Call-to-action button (e.g. "View My Work")
@@ -76,9 +83,6 @@ nav {
     /* Optional contact form (HTML only required)
 
 /* Footer Section
-    /* Your Name
-    /* Current Year
-    /* Copyright
     /* Optional social links
 
 /* Design Requirements
@@ -111,5 +115,5 @@ nav {
 
 /* Deployment
     /* Must push code to Github
-    /* Must deploy live to Github Pages and Netlify
+    /* Must deploy live to Github Pages
     /* Must submit live URL
