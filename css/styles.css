@@ -1,13 +1,18 @@
 @media screen and (max-width: 768px) {
-    img.container > img {
-        display: flex;
-        align-items: left;
+    .img-container > img {
         width: 768px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .img-container > img {
+        width: 1024px;
     }
 }
 
 .custom-navbar {
     background-color: rgb(167, 61, 242);
+    margin: auto;
 }
 
 .nav-link {
@@ -16,21 +21,41 @@
 
 body {
     font-family: "IBM Plex Serif", serif;
-    font-weight: 100;
+    margin: auto;
+    background-color: white;
 }
 
 .intro {
     display: flex;
+    font-weight: bolder;
 }
 
-.bio {
+.bio-container {
     display: flex;
-    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
 }
 
-.project-container {
-    display: inline-flex;
-    justify-content: center;
+.img-container {
+    width: 50%;
+    object-fit: cover;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+.paragraph-container {
+    width: 50%;
+}
+
+.skills-container, .projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
 .footer {
@@ -56,18 +81,11 @@ body {
     /* Clean spacing and readable typography
 
 /* Skills Section
-    /* Frontend skills
-    /* Backend skills
-    /* Tools/technologies
-    /* Suggested layout options: cards, grid, flex rows
     /* Must use Flexbox
     /* Responsive layout (wrap or stack cleanly)
 
 /* Projects Section
-    /* Must include at least 2 cards (placeholders acceptable)
         /* Each project must include:
-            /* Project title
-            /* Short description
             /* Technologies used
             /* Github link (placeholder allowed)
             /* Optional live demo link
