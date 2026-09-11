@@ -1,3 +1,8 @@
+* {
+    margin: 0 auto;
+    padding: 10px;
+}
+
 @media screen and (max-width: 768px) {
     .img-container > img {
         width: 768px;
@@ -11,18 +16,27 @@
 }
 
 .custom-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: rgb(167, 61, 242);
-    margin: auto;
+    padding: 15px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 10em;
 }
 
 .nav-link {
     color: white;
+    font-size: 25px;
+    gap: 10em;
 }
 
 body {
     font-family: "IBM Plex Serif", serif;
-    margin: auto;
-    background-color: white;
+    background-color: rgb(195, 206, 207);
 }
 
 .intro {
@@ -32,35 +46,42 @@ body {
 
 .bio-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
     width: 100%;  
 }
 
 .img-container {
     width: 50%;
     object-fit: cover;
+    height: auto;
 }
 
 figcaption {
     font-style: italic;
+    align-self: center;
 }
 
 .paragraph-container {
+    display: flex;
+    align-items: center;
     width: 50%;
+    object-fit: cover;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
 }
 
 .skills-container, .projects-container {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: baseline;
 }
 
 .footer {
     display: flex;
-    background-color: gray;
 }
 
 /* Required elements
@@ -68,9 +89,6 @@ figcaption {
     /* Mobile-first responsive design
     /* Deployed live site
     /* Git version control
-
-/* Navigation Bar
-    /* Use Flexbox for responsive layouts
 
 /* Hero Section
     /* Call-to-action button (e.g. "View My Work")
@@ -98,7 +116,6 @@ figcaption {
     /* Clickable e-mail (mailto:)
     /* LinkedIn link (placeholder allowed)
     /* GitHub profile link
-    /* Optional contact form (HTML only required)
 
 /* Footer Section
     /* Optional social links
@@ -119,14 +136,10 @@ figcaption {
         /* Projects layout
         /* At least one additional layout of your choice
     /* Must demonstrate usage of:
-        /* display: flex
-        /* justify-content
-        /* align-items
         /* flex-direction
         /* flex-wrap
 
 /* Responsive requirements
-    /* Include proper viewport meta tag
     /* Use at least one media query breakpoint (768px/1024px)
     /* Layout must adapt at larger screen sizes
     /* No horizontal overflow
