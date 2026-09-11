@@ -1,6 +1,7 @@
 * {
     margin: 0 auto;
-    padding: 10px;
+    border: 0;
+    padding: 5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -19,8 +20,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
     background-color: rgb(167, 61, 242);
-    padding: 15px;
+    padding: 0;
 }
 
 .navbar-nav {
@@ -30,8 +33,7 @@
 
 .nav-link {
     color: white;
-    font-size: 25px;
-    gap: 10em;
+    font-size: 20px;
 }
 
 body {
@@ -39,38 +41,65 @@ body {
     background-color: rgb(195, 206, 207);
 }
 
-.intro {
+h3 {
+    text-align: center;
+}
+
+.intro-container {
     display: flex;
-    font-weight: bolder;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.intro-heading {
+    font-weight: bold;
+}
+
+.intro-text {
+    font-size: medium;
+    font-weight: normal;
+    text-align: center;
 }
 
 .bio-container {
     display: flex;
-    justify-content: flex-start;
     align-items: stretch;
     flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;  
+    gap: 20px;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
 }
 
-.img-container {
-    width: 50%;
+.bio-child {
+    flex: 1;
+}
+
+.img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box img {
+    width: 100%;
+    height: 75%;
     object-fit: cover;
-    height: auto;
+    align-self: center;
 }
 
 figcaption {
     font-style: italic;
-    align-self: center;
+    text-align: center;
 }
 
-.paragraph-container {
+.text-box {
     display: flex;
+    line-height: 2;
     align-items: center;
-    width: 50%;
-    object-fit: cover;
-    line-height: 1.5;
-    margin-bottom: 1.5em;
 }
 
 .skills-container, .projects-container {
