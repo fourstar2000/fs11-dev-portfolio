@@ -86,7 +86,7 @@ h3 {
     align-self: center;
 }
 
-figcaption {
+.img-box figcaption {
     font-style: italic;
     text-align: center;
 }
@@ -118,48 +118,15 @@ figcaption {
     justify-content: center;
 }
 
-.footer {
+.contact-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
-
-/* Looks clean on mobile or desktop
-
-/* About Me Section
-    /* Responsive layout (image + text stack on mobile)
-
-/* Skills Section
-    /* Responsive layout (wrap or stack cleanly)
-
-/* Projects Section
-    /* Layout requirements
-        /* Use Flexbox
-        /* Stack vertically on mobile
-        /* Align evenly on larger screens
-
-/* Contact Section
-    /* Clickable e-mail (mailto:)
-    /* LinkedIn link (placeholder allowed)
-    /* GitHub profile link
-
-/* Footer Section
-    /* Optional social links
-
-/* Design Requirements
-    /* Mobile-first approach
-    /* Clean spacing and alignment
-    /* Consistent color scheme (2-3 colors max)
-    /* Proper use of margins and padding
-    /* Readable typography
-    /* No broken layouts when resizing
-    /* No horizontal scrolling
-
-/* Responsive requirements
-    /* Use at least one media query breakpoint (768px/1024px)
-    /* Layout must adapt at larger screen sizes
-    /* No horizontal overflow
-
-/* Deployment
-    /* Must push code to Github
-    /* Must deploy live to Github Pages
-    /* Must submit live URL
+.contact-container figcaption {
+    font-style: bold;
+    text-align: center;
+}
