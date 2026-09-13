@@ -1,7 +1,6 @@
 * {
-    margin: 0 auto;
-    border: 0;
     padding: 5px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -49,27 +48,23 @@ h3 {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin-top: 10px;
-}
-
-.intro-heading {
-    font-weight: bold;
+    margin: 20px 0px 0px 0px;
 }
 
 .intro-text {
-    font-size: medium;
-    font-weight: normal;
+    font-size: 17px;
+    font-weight: 300;
     text-align: center;
 }
 
 .bio-container {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     flex-direction: row;
     gap: 20px;
     width: 100%;
-    padding: 15px;
-    margin: 10px;
+    height: 100%;
+    margin: 30px 0px 30px 0px;
 }
 
 .bio-child {
@@ -86,7 +81,7 @@ h3 {
 
 .img-box img {
     width: 100%;
-    height: 70%;
+    height: 100%;
     object-fit: cover;
     align-self: center;
 }
@@ -107,6 +102,7 @@ figcaption {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin: 30px 0px 30px 0px;
 }
 
 .card-img-top {
@@ -126,33 +122,20 @@ figcaption {
     display: flex;
 }
 
-/* Required elements
-    /* Flexbox for layout
-    /* Mobile-first responsive design
-    /* Deployed live site
-    /* Git version control
 
-/* Hero Section
-    /* Call-to-action button (e.g. "View My Work")
-    /* Looks clean on mobile or desktop
+/* Looks clean on mobile or desktop
 
 /* About Me Section
     /* Responsive layout (image + text stack on mobile)
-    /* Clean spacing and readable typography
 
 /* Skills Section
-    /* Must use Flexbox
     /* Responsive layout (wrap or stack cleanly)
 
 /* Projects Section
-        /* Each project must include:
-            /* Technologies used
-            /* Github link (placeholder allowed)
-            /* Optional live demo link
-        /* Layout requirements
-            /* Use Flexbox
-            /* Stack vertically on mobile
-            /* Align evenly on larger screens
+    /* Layout requirements
+        /* Use Flexbox
+        /* Stack vertically on mobile
+        /* Align evenly on larger screens
 
 /* Contact Section
     /* Clickable e-mail (mailto:)
@@ -170,16 +153,6 @@ figcaption {
     /* Readable typography
     /* No broken layouts when resizing
     /* No horizontal scrolling
-
-/* Flexbox Requirements
-    /* Must use flexbox for:
-        /* Navbar layout
-        /* Skills layout
-        /* Projects layout
-        /* At least one additional layout of your choice
-    /* Must demonstrate usage of:
-        /* flex-direction
-        /* flex-wrap
 
 /* Responsive requirements
     /* Use at least one media query breakpoint (768px/1024px)
